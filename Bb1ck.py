@@ -3,17 +3,17 @@
 def morning():
      print("Bonjour ! ")
      print(f"""\ Explainations:
-At {time} in france and all country that they talk in french,\n the greet expression is:\n Bonjour that mean Good morning """)
+At {time}am in france and all country that they talk in french,\n the greet expression is:\n Bonjour that mean Good morning """)
 
 
 
 def evening():
       print("Bonsoir !")
-      print(f"""\ Explainations:
-At {time} in france and all country that they talk in french,\n the greet expression is:\n Bonsoir that mean Good afternoon or Good evening """)
+      print(f"""\n\n Explainations:
+At {time}pm in france and all country that they talk in french,\n the greet expression is:\n Bonsoir that mean Good afternoon or Good evening """)
 
 
-time = int(input("Please enter the time of own to how may you greet in french at these time: "))
+time = int(input("Please enter the time of your own to know how may you greet in french at this time: "))
 if time <=12:
    morning()
 elif time >= 12:
